@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-based Video Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Dashboard Screen -->
+        <div id="dashboard" class="screen">
+            <h1>Dashboard</h1>
+            <ul>
+                <li><a href="#" id="newVideo">New Video</a></li>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="template">Template</a></li>
+                <li><a href="#" id="allVideos">All Videos</a></li>
+                <li><a href="#" id="createProject">Create Project</a></li>
+                <li><a href="#" id="recordVideo">Record Video</a></li>
+            </ul>
+        </div>
+
+        <!-- Video Editor Screen -->
+        <div id="videoEditor" class="screen">
+            <h1>Video Editor</h1>
+            <input  id = "file" type="file"/>
+    <br/>
+    <div id = "canvasdraw">
+        <canvas style="border:2px solid black" id = "canvas1"></canvas>
+      </div>
+    <div id = "menu">
+        <button id ="play">Play</button>
+        <button id ="stop" >Stop</button>
+        <button id ="trim1" >Trim</button>
+        <button id="cut1">Cut</button>  
+    </div>
+    
+        </div>
+    </div>
+
+    <script src="data.json"></script>
+
+</body>
+</html>

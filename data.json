@@ -1,0 +1,23 @@
+{
+  "dashboard": {
+    "menuItems": [
+      {"id": "newVideo", "name": "New Video"},
+      {"id": "home", "name": "Home"},
+      {"id": "template", "name": "Template"},
+      {"id": "allVideos", "name": "All Videos"},
+      {"id": "createProject", "name": "Create Project"},
+      {"id": "recordVideo", "name": "Record Video"}
+    ]
+  },
+  "videoEditor": {
+    "tools": [
+      {"id": "trimSplit", "name": "Trim & Split"},
+      {"id": "addMusicText", "name": "Add Music/Text"},
+      {"id": "cropResize", "name": "Crop & Resize"},
+      {"id": "mergeClips", "name": "Merge Clips"}
+    ],
+    "features": [
+      {"id": "supportTracks", "name": "Support Multiple Tracks"}
+    ]
+  }
+}
